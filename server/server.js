@@ -10,7 +10,7 @@ const authRouter = require("./routes/auth/auth-routes");
 
 const app = express();
 const PORT = process.env.AUTH_PORT || 4000;
-const DB_URI = process.env.AUTH_DB_URI || "mongodb://localhost:27017/authDB";
+const DB_URI = process.env.AUTH_DB_URI || "mongodb+srv://anasmalik722422:anasmalik722422@departmental-store.vsocc.mongodb.net/?retryWrites=true&w=majority&appName=Departmental-Store";
 
 // Connect to MongoDB
 mongoose.connect(DB_URI)
